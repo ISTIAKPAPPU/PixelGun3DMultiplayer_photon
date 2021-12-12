@@ -690,12 +690,9 @@ GameObject:
   - component: {fileID: 1377763795876652905}
   - component: {fileID: 1377763795876652902}
   - component: {fileID: 6167153889052159624}
-  - component: {fileID: 4707404154023061587}
   - component: {fileID: -7720436884737283431}
   - component: {fileID: -3332361496440479304}
   - component: {fileID: -5341657408708026728}
-  - component: {fileID: 6066367437442036986}
-  - component: {fileID: 161749946344067990}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -750,21 +747,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &4707404154023061587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377763795876652903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e09eb03dce302b4c9edf173b1b98ba2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 8
-  lookSensitivity: 3
-  fpsCamera: {fileID: 8845872468440809690}
 --- !u!114 &-7720436884737283431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -818,35 +800,6 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
---- !u!114 &6066367437442036986
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377763795876652903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fca28128546525f489206e4bc080e47c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fpsCamera: {fileID: 7201838594555878143}
-  fireRate: 0.5
-  _fireTime: 0
---- !u!114 &161749946344067990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377763795876652903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a822c19df55291f4eba0e6ccaf2c95c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthBar: {fileID: 839785783748335137}
-  startHealth: 100
 --- !u!1 &1377763795907326175
 GameObject:
   m_ObjectHideFlags: 0

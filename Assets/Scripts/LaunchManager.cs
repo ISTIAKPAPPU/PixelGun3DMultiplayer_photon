@@ -12,6 +12,7 @@ public class LaunchManager : MonoBehaviourPunCallbacks
     [SerializeField] private GameObject enterGamePanel;
     [SerializeField] private GameObject connectionStatusPanel;
     [SerializeField] private GameObject lobbyPanel;
+    [SerializeField] private string gameSceneName;
 
     private void Awake()
     {
@@ -64,7 +65,7 @@ public class LaunchManager : MonoBehaviourPunCallbacks
     {
         Debug.Log(PhotonNetwork.NickName + " joined to " + PhotonNetwork.CurrentRoom.Name);
         lobbyPanel.SetActive(false);
-        PhotonNetwork.LoadLevel("GameScene");
+        PhotonNetwork.LoadLevel(gameSceneName);
     }
 
     public override void OnPlayerEnteredRoom(Player newPlayer)

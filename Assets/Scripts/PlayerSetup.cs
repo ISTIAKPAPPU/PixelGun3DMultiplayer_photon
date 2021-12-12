@@ -15,13 +15,11 @@ public class PlayerSetup : MonoBehaviourPunCallbacks
     {
         if (photonView.IsMine)
         {
-            GetComponent<MovementController>().enabled = true;
-            fpsCamera.GetComponent<Camera>().enabled = true;
+           
         }
         else
         {
-            GetComponent<MovementController>().enabled = false;
-            fpsCamera.GetComponent<Camera>().enabled = false;
+         
         }
 
         SetPlayerUi();
